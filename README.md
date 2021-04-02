@@ -227,9 +227,8 @@ implementations produce those different results. You don't have to talk in
 detail about _all_ of your tests, just the ones that usefully distinguish three
 implementations of your choice.
 
-In addition, put any collaborators you worked with in the Collaborator section of the gradescope assignment <a
-href="../#programming">as described in the collaboration policy for open
-assignments</a>.
+In addition, put any collaborators you worked with in the Collaborator section of the gradescope assignment 
+as described in the collaboration policy for open assignments on the class website.
 
 
 ## Style
