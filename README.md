@@ -8,7 +8,7 @@
 This assignment will teach you to use JUnit to test implementations of an
 interface, and review a number of Java concepts.
 
-This PA is due on ** **Wednesday, April 7 at 11:59pm** **
+This PA is due on ** **Tuesday, April 5 at 10:00pm** **
 
 ## Baskets and Interns
 
