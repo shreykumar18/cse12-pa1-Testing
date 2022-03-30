@@ -95,7 +95,7 @@ they differ.
 
 ## Getting the Code
 
-The starter code is in the Github repository that you are currently looking at. If you are not familiar with Github, here are two easy ways to get your code.
+The starter code available on Github at https://github.com/ucsd-cse12-sp22/cse12-pa1-Testing. If you are not familiar with Github, here are two easy ways to get your code.
 
 1. Download as a ZIP folder 
 
