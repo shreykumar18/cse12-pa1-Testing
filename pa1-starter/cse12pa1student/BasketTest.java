@@ -54,4 +54,38 @@ public class BasketTest {
 		assertEquals(1, basketToTest.count());
 	}
 
+	@Test
+	public void duplicateItemsRemoved() {
+		Basket basketToTest = makeBasket();
+
+		Item i = new Item("Fork", 2);
+		basketToTest.addToBasket(i);
+		basketToTest.addToBasket(i);
+		basketToTest.removeAllFromBasket(i);
+		assertEquals(0, basketToTest.count());
+	}
+
+	@Test
+	public void countDuplicatesInBasket() {
+		Basket basketToTest = makeBasket();
+
+		Item i = new Item("Spoon", 2);
+		basketToTest.addToBasket(i);
+		basketToTest.addToBasket(i);
+		assertEquals(2, basketToTest.countItem(i));
+	}
+
+	@Test
+	public void totalCost() {
+		Basket basketToTest = makeBasket();
+
+		Item i = new Item("Knife", 3);
+		Item j = new Item("Butter", 2);
+		basketToTest.addToBasket(i);
+		basketToTest.addToBasket(j);
+		assertEquals(5, basketToTest.totalCost());
+	}
+
+
+
 }
